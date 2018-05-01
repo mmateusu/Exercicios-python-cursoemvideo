@@ -1,0 +1,8 @@
+frase= input('Digite uma frase:')
+up= frase.upper()
+quantidade= up.count('A')
+posiçao= up.find('A'[0])
+pos= up.rfind('A')
+print('Quantidade: {}'.format(quantidade))
+print('Posição: {}'.format(posiçao))
+print('Posição 2: {}'.format(pos))
